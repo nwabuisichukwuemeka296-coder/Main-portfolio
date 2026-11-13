@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHUKZDEV  / Software Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    
+  <header>
+    <a href="#home" class="logo">CHUKZDEV <span>/&gt;</span></a>
+    <nav id="navMenu">
+       <a href="#home" class="active">Home</a>
+       <a href="#about">About</a>
+       <a href="#skill">Skill</a>
+       <a href="#service">Services</a>
+       <a href="#Project">Project</a>
+       <a href="#experience">Experience</a>
+       <a href="#contact">Contact</a>
+    </nav>
+     <button class="Lets-btn" onclick="document.getElementById('contact').scrollIntoView()">Lets talk</button>
+
+     <button class="hamburger" id="hamburger">&#9776;</button>
+  </header>
+
+   <!-- HOME WITH PICTURE -->
+    <section id="home">
+        <div class="home-text">
+           <small>&#9679; I'M CHUKZ</small>
+           <h1>Software <br> <span>Developer</span></h1>
+           <p>I build a <b style="color:facc15">digital experience</b>that makes a difference. I am a passionate software developer who enjoys transforming ideas into functional, beautiful, and user-friendly digital products.</p>
+
+           <div class="home-btns">
+            <a href="project" class="btn-yellow">Explore This page</a>
+            <a href="contact" class="btn-outline">Contact Me</a>
+           </div>
+        </div>
+       
+    <!-- HOME PICTURE - GX-PHONE -->
+     <div class="home-img">
+        <div>
+            <div class="frame">
+                <img src="GSSX9638.JPG" alt="chuks- Home Photo">
+            </div>
+            <p class="caption">NWABUISI CHUKWUEMEKA</p>
+        </div>
+     </div>
+    </section>
+
+    <!-- ABOUT WITH PICTURE -->
+     <section id="about">
+        <div class="section-title"> <small>GET TO KNOW ME</small> <h2>About Me</h2></div>
+        <div class="about-grid">
+    <!-- ABOUT PICTURE - CHUKS -->
+     <div class="about-img">
+        <div class="frame">
+            <img src="GSSX9638.JPG" alt="chuks- about photo">
+        </div>
+        <p class="caption">NWABUISI CHUKWUEMEKA</p>
+     </div>
+
+     <div class="about-text">
+        <div class="card"><h3>Who I Am</h3><p>I am Chuks, a software developer from Enugu, Nigeria. I love building clean, fast, and responsive websites and helping businesses go online.</p></div>
+        <div class="card"><h3>What I Do</h3><p>Fronted Development, Graphics Design, Virtual Assistance and content Management. I turn your  idea into a working product.</p></div>
+     </div>
+
+        </div>
+     </section>
+
+     <!-- SKILL -->
+      <section id="skill">
+        <div class="section-title"><small>MY SKILLS</small><h2>Skills</h2></div>
+         <div class="card">
+
+            <div class="skill-bar"><span><b>HTML / CSS</b> <b>90%</b></span>
+            <div class="bar"><i style="width:90%"></i></div></div>
+
+            <div class="skill-bar"><span><b>Javascript</b> <b>75%</b></span>
+            <div class="bar"><i style="width:75%"></i></div></div>
+             
+            <div class="skill-bar"><span><b>Graphics Design</b>
+               <b>85%</b></span>
+            <div class="bar"><i style="width:85%"></i></div></div>
+             
+            <div class="skill-bar"><span><b>Content Management</b><b>80%</b></span>
+            <div class="bar"><i style="width:80%"></i></div></div>
+         </div>
+      </section>
+
+     <!-- SERVICE -->
+      <section id="services">
+         <div class="section-title"><small>WHAT I OFFER</small><h2>Services</h2></div>
+         <div class="experince-info">
+
+          <div class="card"><h3>Web Development</h3><p>Responsive Websites, portfolio, business websites and landing pages.</p></d>
+
+         <div class="card"><h3>Graphics Design</h3><p>Flyers, logos, social media designs and branding.</p></d>
+
+         <div class="card"><h3>Virtual Assistant</h3><p>Data entry, email handling, research and admin support.</p></d>
+
+        <div class="card"><h3>Content Management</h3><p>Writing, posting and managing content for brands.</p></d>
+
+         </div>
+      </section>
+
+      <!-- PROJECT -->
+       <section id="project">
+         <div class="section-title"><small>MY WORK</small><h2>Projects</h2></div>
+       
+         <div class="projects">
+            <div class="project-box">
+               <img src="https://via.placeholder.com/400x170"><div><h3>Portfolio Website</h3><p>Personal responsive portfolio built with HTML, CSS and Javascript.</P></div></div>
+
+          <div class="project-box">
+               <img src="https://via.placeholder.com/400x170"><div><h3>Business Website</h3><p>Modern website for a local business with contact and services.</P></div></div>
+ 
+          <div class="project-box">
+               <img src="https://via.placeholder.com/400x170"><div><h3>Land page</h3><p>Clean landing page designed to convert visitors to customer.</P></div></div>
+               </div>
+       </section>
+
+       <!-- EXPERIENCE -->
+        <section id="experience">
+         <div class="section-title"><small>MY JOURNEY</small><h2>Experience</h2></div>
+
+         <div class="experience-info">
+
+      <div class="card"><h3>Frontend Development<span>2025-present</span></h3></p>Building responsive website with HTML, CSS, Javascript.<p></div>
+
+
+       <div class="card"><h3>Graphics Designs<span>2023-present</span></h3></p>Designing flyers, logos. and social media creative.<p></div>
+   
+     <div class="card"><h3>Virtual Assistant<span>2025-present</span></h3></p> Supporting clients with admin, data snd online tasks.<p></div>
+
+      <div class="card"><h3>Content Manger<span>2024-present</span></h3></p>Managing and creating content for brands and pages.<p></div>
+       
+      </div>
+   </section>
+
+
+   <!-- CONTACT -->
+   <section id="contact">
+      <div class="section-title"><small>LETS TALK</small><h2>Contact Me</h2></div>
+   <form onsubmit="sendMessage(event)">
+   <input type="text" id="name" placeholder="Your Name" required>
+   <input type="Email" id="Email" placeholder="Your Email" required>
+   
+  <textarea id="message" rows="5" placeholder="Your Mesage" required></textarea>
+    <button class="btn-yellow" style="border:none;
+       cursor:pointer;">send Message</button>
+       </form>
+      </section>
+      
+      <footer> 2026 CHUKZDEV. ALL right reserved.</footer>
+
+
+      <script src="portfolio.js"></script>
+</body>
+</html>
